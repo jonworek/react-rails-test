@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+/public/packs
+
+# NodeJS
+/node_modules/
+/vendor/node_modules/

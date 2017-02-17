@@ -1,4 +1,7 @@
-class Timer extends React.Component {
+import React from 'react';
+import Button from "./button.jsx";
+
+export default class Timer extends React.Component {
 
     constructor(props) {
         super(props);
