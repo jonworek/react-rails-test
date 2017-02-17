@@ -19,7 +19,5 @@
     "url": "https://github.com/jonworek/react-rails-test/issues"
   },
   "homepage": "https://github.com/jonworek/react-rails-test#readme",
-  "devDependencies": {
-    "webpack": "^2.2.1"
-  }
+  "devDependencies": {}
 }

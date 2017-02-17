@@ -11,13 +11,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.1'
-gem 'react-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'sqlite3'
 gem 'turbolinks', '~> 5'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'uglifier', '>= 1.3.0'
 gem 'webpacker', github: 'rails/webpacker'
+gem 'webpacker-react', github: 'renchap/webpacker-react'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

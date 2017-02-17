@@ -9,8 +9,7 @@
 import Timer from "components/timer.jsx"
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import WebpackerReact from 'webpacker-react';
 
-ReactDOM.render(
-    <Timer/>,
-    document.getElementById('root')
-);
+WebpackerReact.register(Timer);
