@@ -11,7 +11,7 @@ export default class Timer extends React.Component {
     print(value) {
         return(
             <li key={value}> 
-                  {value} 
+                  {value.toString()} 
             </li>
         );
     }
