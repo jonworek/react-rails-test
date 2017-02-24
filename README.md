@@ -15,12 +15,22 @@ This is a playground project to experiment with the following tech stack:
 * webpacker-react - https://github.com/renchap/webpacker-react
 
 # Setup
+This assumes you already have a compatible version of Ruby and NodeJS installed.  Ruby 2.3.1 and NodeJS 7.6.0 are what
+I used, but feel free to use any other versions.  If they don't work, I recommend using those versions.
 
-1. Install all ruby gems
+1. Install the `bundler` ruby gem, if you don't have it already for your given Ruby version:
+
+    `gem install bundler`
+
+1. Install all ruby gems:
 
     `bundle install`
 
-2. Install all node\_modules 
+1. Install the yarn NodeJS package management system, using brew:
+
+    `brew install yarn`
+
+2. Install all node\_modules using yarn:
 
     `bin/yarn`
 
