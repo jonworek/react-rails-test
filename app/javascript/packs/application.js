@@ -6,10 +6,14 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-import Timer from "components/timer.jsx"
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import WebpackerReact from 'webpacker-react';
 
+import Counter from "components/counter.jsx"
+import CounterDisplay from "components/counterDisplay.jsx"
+import Timer from "components/timer.jsx"
+
+WebpackerReact.register(Counter);
+WebpackerReact.register(CounterDisplay);
 WebpackerReact.register(Timer);
