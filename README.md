@@ -56,6 +56,15 @@ React components are defined in `app/javascript/components`.
 When you make changes to files managed by webpack, the webpack dev server will automatically reload the changed
 components.  Neat!
 
+## Redux
+Redux is a handy JS library that you can use to manage application state.  The main use that it's employed for in this
+app is to manage state that's shared between React components.
+
+There's an example of a redux state store in `app/javascript/stores/counterStore.js`.  This store is used to manage
+state that's shared between `app/javascript/components/counter.jsx` and `app/javascript/components/counterDisplay.jsx`.
+
+See the [Redux docs](http://redux.js.org/) for more information.
+
 ## Adding node\_modules
 
 Do you have a fancy node module that you'd like to reference in your application code?  It's easy to add it, like so:
