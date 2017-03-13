@@ -22,5 +22,5 @@
 /public/packs
 
 # NodeJS
-/node_modules/
-/vendor/node_modules/
+/public/packs
+/node_modules

@@ -1,6 +1,6 @@
 {
   "presets": [
-      "./vendor/node_modules/babel-preset-es2015", 
-      "./vendor/node_modules/babel-preset-react"
+    "es2015",
+    "react"
   ]
 }
