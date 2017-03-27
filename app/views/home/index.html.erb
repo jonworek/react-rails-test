@@ -1,5 +1,12 @@
 <h1>Hello Rails</h1>
 
+<h2>Todo list</h2>
+<div id="todo">
+</div>
+<%= javascript_pack_tag("todo") %>
+<hr>
+
+<h2>Counter</h2>
 <%= javascript_pack_tag("application") %>
 
 <%= react_component("Counter") %>
@@ -7,3 +14,4 @@
 <div class="counter-display">
   <%= react_component("CounterDisplay") %>
 <div>
+
