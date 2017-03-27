@@ -14,6 +14,5 @@ import Counter from "components/counter.jsx"
 import CounterDisplay from "components/counterDisplay.jsx"
 import Timer from "components/timer.jsx"
 
-WebpackerReact.register(Counter);
-WebpackerReact.register(CounterDisplay);
-WebpackerReact.register(Timer);
+WebpackerReact.setup({Counter});
+WebpackerReact.setup({CounterDisplay});
